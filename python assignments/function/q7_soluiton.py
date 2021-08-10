@@ -8,5 +8,4 @@ def pangram(x):
 strings=input("enter text to check it is pangram or not: ")
 strings=strings.replace(" ","")
 strings=strings.lower()
-print(strings)
 pangram(strings.lower())
